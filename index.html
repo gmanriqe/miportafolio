@@ -1,0 +1,589 @@
+<!DOCTYPE html>
+<!--
+.______    __   _______ .__   __. ____    ____  _______ .__   __.  __   _______   ______   
+|   _  \  |  | |   ____||  \ |  | \   \  /   / |   ____||  \ |  | |  | |       \ /  __  \  
+|  |_)  | |  | |  |__   |   \|  |  \   \/   /  |  |__   |   \|  | |  | |  .--.  |  |  |  | 
+|   _  <  |  | |   __|  |  . `  |   \      /   |   __|  |  . `  | |  | |  |  |  |  |  |  | 
+|  |_)  | |  | |  |____ |  |\   |    \    /    |  |____ |  |\   | |  | |  '--'  |  `--'  | 
+|______/  |__| |_______||__| \__|     \__/     |_______||__| \__| |__| |_______/ \______/  
+
+¡Ajá! Parece que sabes cómo inspeccionar el código ¬￢
+-->
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <!-- Meta -->
+    <meta name="author" content="Jesus Gonzales, gmanriqe@gmail.com">
+    <meta name="owner" content="Jesús Gonzales">
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Roboto+Condensed:300,400,700" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Roboto+Slab:400,700" rel="stylesheet">
+    <!-- Fontawesome -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ"
+        crossorigin="anonymous">
+    <!-- Owl Carousel -->
+    <link rel="stylesheet" href="css/owl-carousel/owl.carousel.min.css">
+    <link rel="stylesheet" href="css/owl-carousel/owl.theme.default.min.css">
+    <!-- bootstrap -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"
+        crossorigin="anonymous">
+    <!-- style -->
+    <link rel="stylesheet" href="css/min/style.min.css">
+    <title>Frontend Jr</title>
+</head>
+
+<body>
+    <!-- preloader -->
+    <div id="preloader">
+        <div id="status">
+            <!-- Loading... -->
+            <!-- animation div -->
+            <div class="animation__loading">
+                <div class="animation__box"></div>
+                <div class="animation__box"></div>
+                <div class="animation__box"></div>
+                <div class="animation__box"></div>
+            </div>
+        </div>
+    </div>
+
+    <!-- photo hackatrix -->
+    <div class="popup__hackatrix" id="popUpContent">
+        <div class="container__img">
+            <div class="container__x" id="close">
+                x
+            </div>
+            <img src="https://www.belatrixsf.com/blog/wp-content/uploads/2018/05/Winners-Hackatrix-Lima-2018.jpg"
+                alt="Ganador Dev Master">
+        </div>
+    </div>
+
+    <!-- menu__left -->
+    <nav class="main__menu__left" id="menuLeft">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <ul class="menu__left">
+                        <!-- <li class="menu__left__item"><img src="/img/clear-button.svg" alt="clear"></li> -->
+                        <li class="menu__left__item"><a href="#header">Inicio</a></li>
+                        <li class="menu__left__item"><a href="#container">Sobre mi</a></li>
+                        <li class="menu__left__item"><a href="#education">Formación</a></li>
+                        <li class="menu__left__item"><a href="#skill">Habilidades</a></li>
+                        <li class="menu__left__item"><a href="#experience">Experiencia</a></li>
+                        <li class="menu__left__item"><a href="#portfolio">Portafolio</a></li>
+                        <li class="menu__left__item"><a href="#contact">Contactame</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- menu -->
+    <div class="main__header" id="header">
+        <div class="header__menu" id="menu">
+            <!-- al estar en fixed pierde su espacio -->
+            <div class="container">
+                <div class="menu">
+                    <span>JA.</span>
+                    <div id="menuResponsive">
+                        <img src="./img/menu-button-white.svg" />
+                        <img class="clear__button" src="./img/clear-button-white.svg" />
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="header__background">
+            <div class="text__background">
+                <h2>HEY! BIENVENIDO</h2>
+                <div class="type-wrap">
+                    <p>Soy,
+                        <span id="typed"></span>
+                    </p>
+                </div>
+            </div>
+
+            <svg class="svg__background" version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+                x="0px" y="0px" viewBox="0 0 1440 77.185" style="enable-background:new 0 0 1440 77.185;" xml:space="preserve">
+                <polygon id="SVG_2_" style="fill:#FFFFFF;" points="163.084,-0.343 1067.786,61.733 1440,1.007 1440,78.235 -37.409,78.235 " />
+            </svg>
+            <svg class="svg__background__movil" version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg"
+                xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 768 342.105" style="enable-background:new 0 0 768 342.105;"
+                xml:space="preserve">
+                <path id="SVG_2_" style="fill:#FFFFFF;" d="M86.667,0.012L86.667,0.012c161.257,90.335,322.514,180.67,483.771,271.005
+	C636.292,180.678,702.146,90.339,768,0v342.105H-16.169C18.109,228.074,52.388,114.043,86.667,0.012z" />
+            </svg>
+            <!-- mouse  -->
+            <div class="mouse__icon">
+                <div class="mouse__scroll"></div>
+            </div>
+            <!-- </div> -->
+        </div>
+    </div>
+
+    <!-- about me -->
+    <div class="main__about padding__main" id="container">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12 col-lg-4">
+                    <h2 class="title title--left">Sobre <br /> mi
+                    </h2>
+                    <p>Ingeniero Informático -
+                        <strong>Frontend Jr</strong>
+                    </p>
+                </div>
+                <div class="col-md-12 col-lg-8">
+                    <p> Papá de Mathieu
+                        <i class="fa fa-heart"></i> Bachiller en Ingeniería Informática, apasionado por el mundo tech y
+                        tecnologías
+                        modernas. Integrante del Team Dev Master
+                        <strong class="popup" id="popup">Ganador del Primer Puesto en la Categoria Innovación en la
+                            Hackatrix 2018 Organizado por el BCP y Belatrixsf.
+                        </strong> Frontend Jr con experiencia haciendo sitios web modernos con Html5, Css3 y
+                        JavaScript (jQuery). Aunque mis sentimientos son muy fuertes por el Frontend, tambien cuento con sólidos
+                        conocimientos del lado Backend con NodeJS (Frameworks SailsJS y Express) utilizando el patron MVC y manejo
+                        de Base de Datos con SQL Server y PostgreSQL.
+                    </p>
+                    <table class="description__me">
+                        <tbody>
+                            <tr>
+                                <th>Nombre</th>
+                                <td>:</td>
+                                <td>Jesús Alexander Gonzales Manrique</td>
+                            </tr>
+                            <tr>
+                                <th>Teléfono</th>
+                                <td>:</td>
+                                <td><a class="phone" href="tel:+51993559068">+51 993 559 068</a></td>
+                            </tr>
+                            <tr>
+                                <th>Email</th>
+                                <td>:</td>
+                                <td>
+                                    <a class="email" href="mailto:gmanriqe@gmail.com">gmanriqe@gmail.com</a>
+                                </td>
+                            </tr>
+                            <tr>
+                                <th>Localidad</th>
+                                <td>:</td>
+                                <td>Lima</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- education -->
+    <div class="main__education padding__main" id="education">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <h2 class="title title--center">Formación</h2>
+                </div>
+                <div class="col-lg-3 col-md-6">
+                    <div class="container__education">
+                        <div class="top">
+                            <div class="img__letter__hover">
+                                <img class="icon__date" src="./img/date.svg" alt="">
+                            </div>
+                            <div class="training__academy">UNJFSC
+                                <br /><strong class="training__details"> Ingeniería Informática</strong>
+                                <h3 class="training__date">ENE2012 - DIC2016</h3>
+                            </div>
+                        </div>
+                        <div class="bottom">
+                            <p class="description__academy">Egresado de la Universidad Nacional José Faustino Sanchez
+                                Carrión
+                                de la Escuela Ingeniería Informática.
+                            </p>
+                        </div>
+
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6">
+                    <div class="container__education">
+                        <div class="top">
+                            <div class="img__letter__hover">
+                                <img class="icon__date" src="./img/date.svg" alt="">
+                            </div>
+                            <div class="training__academy">AREA51
+                                <br /><strong class="training__details"> Html5 Css3 JQ</strong>
+                                <h3 class="training__date">DIC2014 - MAR2015</h3>
+                            </div>
+                        </div>
+                        <div class="bottom">
+                            <p class="description__academy">Curso esencial para construir sitios web aplicando una
+                                correcta
+                                semántica, estilos Css3 e interactuando con jQuery.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6">
+                    <div class="container__education">
+                        <div class="top">
+                            <div class="img__letter__hover">
+                                <img class="icon__date" src="./img/date.svg" alt="">
+                            </div>
+                            <div class="training__academy">ESCUELAIT
+                                <br /><strong class="training__details"> Responsive Web Design</strong>
+                                <h3 class="training__date">ABR2016</h3>
+                            </div>
+                        </div>
+                        <div class="bottom">
+                            <p class="description__academy">Curso sobre el diseño y desarrollo de sitios web adaptables
+                                a diferentes dispositivos movil, tablet o desktop.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6">
+                    <div class="container__education">
+                        <div class="top">
+                            <div class="img__letter__hover">
+                                <img class="icon__date" src="./img/date.svg" alt="">
+                            </div>
+                            <div class="training__academy">AREA51
+                                <br /><strong class="training__details"> NodeJS & SailsJS</strong>
+                                <h3 class="training__date">ENE2016 - MAR2016</h3>
+                            </div>
+                        </div>
+                        <div class="bottom">
+                            <p class="description__academy">Curso JavaScript del lado del servidor. Uso del framework
+                                SailsJS
+                                & Express, utilizando el patron MVC.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6">
+                    <div class="container__education">
+                        <div class="top">
+                            <div class="img__letter__hover">
+                                <img class="icon__date" src="./img/date.svg" alt="">
+                            </div>
+                            <div class="training__academy">PLATZI
+                                <br /><strong class="training__details"> Desarrollo Web Online</strong>
+                                <h3 class="training__date">AGO2016</h3>
+                            </div>
+                        </div>
+                        <div class="bottom">
+                            <p class="description__academy">Curso para desarrollar un sitio web adaptable, aplicando
+                                las tecnologias: Html5, Css3 y JavaScript (jQuery).</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6">
+                    <div class="container__education">
+                        <div class="top">
+                            <div class="img__letter__hover">
+                                <img class="icon__date" src="./img/date.svg" alt="">
+                            </div>
+                            <div class="training__academy">DEV MASTER
+                                <br /><strong class="training__details"> SQL Server 2016</strong>
+                                <h3 class="training__date">JUN2018 - AGO2018</h3>
+                            </div>
+                        </div>
+                        <div class="bottom">
+                            <p class="description__academy">Curso de base de datos, aplicando los lenguajes SQL,
+                                Transact-SQL
+                                y la herramienta SQL Server Managment Studio.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- skill -->
+    <div class="main__skill padding__main" id="skill">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12 col-lg-4">
+                    <h2 class="title title--left">Habili <br />dades
+                    </h2>
+                    <p> Mis superpoderes -
+                        <strong>Html5 Css3 JS (jQuery)</strong>
+                    </p>
+                </div>
+                <div class="col-md-12 col-lg-8">
+                    <div class="acordeon">
+                        <div class="acordeon-header">HTML Y CSS / FRAMEWORK</div>
+                        <div class="acordeon-body"> Manejo de Html5 y Css3 a nivel intermedio, aplicando Responsive Web
+                            Design.
+                            También manejo del FRAMEWORK BOOTSTRAP en su última versión.</div>
+                        <div class="acordeon-header">JAVASCRIPT / JQUERY</div>
+                        <div class="acordeon-body"> Experiencia con JAVASCRIPT / JQUERY & <a href="https://gmanriqe.github.io/api-marvel-jquery-ajax/">AJAX</a>. Plugins con JQUERY. </div>
+                        <div class="acordeon-header">GULPJS</div>
+                        <div class="acordeon-body"> Automatizando tareas comunes a traves de esta herramienta, haciendo uso de NPM.</div>
+                        <div class="acordeon-header">PREPROCESADOR CSS</div>
+                        <div class="acordeon-body"> Experiencia haciendo uso de SASS, en su extesion SCSS.</div>
+                        <div class="acordeon-header">HERRAMIENTAS GIT & GITHUB</div>
+                        <div class="acordeon-body"> Uso de GITHUB como plataforma de desarrollo colaborativo de
+                            software,
+                            utilizando el sistema de control de versiones GIT.</div>
+                        <div class="acordeon-header">HERRAMIENTAS DE DISEÑO</div>
+                        <div class="acordeon-body"> Experiencia con SKETCH y PHOTOSHOP a nivel de Interfaces Web.</div>
+                        <div class="acordeon-header">BASE DE DATOS</div>
+                        <div class="acordeon-body"> Manejo de SQL SERVER 2016 y POSTGRESQL.</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- experience -->
+    <div class="main__experience padding__main" id="experience">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <h2 class="title title--center">Experiencia</h2>
+                </div>
+                <div class="col-md-12">
+                    <div class="row" id="experience-carousel">
+                        <div class="col-md-4 col-sm-6">
+                            <div class="container__experience">
+                                <h2>ENE2016 - DIC2017</h2>
+                                <div>
+                                    <a href="http://gecko-btl.com/" target="_blank">GECKO BTL </a>
+                                    <strong class="business">Agencia Digital</strong>
+                                </div>
+                                <p>Practicante Frontend</p>
+                            </div>
+                        </div>
+                        <div class="col-md-4 col-sm-6">
+                            <div class="container__experience">
+                                <h2>ENE2018 - MAY2018</h2>
+                                <div>
+                                    <a href="https://emapavigsprod.herokuapp.com/" target="_blank">OSCAR PERFECTO </a>
+                                    <strong class="business">Catastro Comercial</strong>
+                                </div>
+                                <p>Analista de Base de Datos</p>
+                            </div>
+                        </div>
+                        <div class="col-md-4 col-sm-6">
+                            <div class="container__experience">
+                                <h2>MAY2018 - JUL2018</h2>
+                                <div>
+                                    <a href="http://cdiproject.com/" target="_blank">CDI PROJECT </a>
+                                    <strong class="business">Consultora</strong>
+                                </div>
+                                <p>Frontend Jr</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- portfolio -->
+    <div class="main__portfolio padding__main" id="portfolio">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12 col-lg-4">
+                    <h2 class="title title--left">Porta<br />folio
+                    </h2>
+                    <p>Proy. en los que he participado -
+                        <strong>Echale un Vistaso</strong>
+                    </p>
+                </div>
+                <div class="col-md-12 col-lg-8">
+                    <div class="row">
+                        <div class="col-md-4 col-lg-6">
+                            <div class="portfolio__container">
+                                <a class="portfolio__imgcontainer" href="https://gmanriqe.github.io/siteweb-devmaster/"
+                                    target="_blank">
+                                    <img class="portfolio__img" src="img/proyect__devmaster.png" alt="">
+                                </a>
+                                <a class="portfolio__title" href="https://gmanriqe.github.io/siteweb-devmaster/" target="_blank">Bootstrap4
+                                </a>
+                                <span>WebSite</span>
+                            </div>
+                        </div>
+                        <div class="col-md-4 col-lg-6">
+                            <div class="portfolio__container">
+                                <a class="portfolio__imgcontainer" href="https://gmanriqe.github.io/siteweb-navigator/"
+                                    target="_blank">
+                                    <img class="portfolio__img" src="img/proyect__navi.jpg" alt="">
+                                </a>
+                                <a class="portfolio__title" href="https://gmanriqe.github.io/siteweb-navigator/" target="_blank">Navi
+                                    Prueba
+                                </a>
+                                <span>WebSite</span>
+                            </div>
+                        </div>
+                        <div class="col-md-4 col-lg-6">
+                            <div class="portfolio__container">
+                                <a class="portfolio__imgcontainer" href="http://ciup.up.edu.pe/" target="_blank">
+                                    <img class="portfolio__img" src="img/proyect__ciup.jpg" alt="">
+                                </a>
+                                <a class="portfolio__title" href="http://ciup.up.edu.pe/" target="_blank">CIUP</a>
+                                <span>WebSite</span>
+                            </div>
+                        </div>
+                        <div class="col-md-4 col-lg-6">
+                            <div class="portfolio__container">
+                                <a class="portfolio__imgcontainer" href="http://tecompro.herokuapp.com/" target="_blank">
+                                    <img class="portfolio__img" src="img/proyect__telocompro.png" alt="">
+                                </a>
+                                <a class="portfolio__title" href="http://tecompro.herokuapp.com/" target="_blank">Te lo
+                                    compro</a>
+                                <span>WebSite</span>
+                            </div>
+                        </div>
+                        <div class="col-md-4 col-lg-6">
+                            <div class="portfolio__container">
+                                <a class="portfolio__imgcontainer" href="https://gmanriqe.github.io/siteweb-clean/"
+                                    target="_blank">
+                                    <img class="portfolio__img" src="img/proyect__clean.jpg" alt="">
+                                </a>
+                                <a class="portfolio__title" href="https://gmanriqe.github.io/siteweb-clean/" target="_blank">
+                                    Clean
+                                </a>
+                                <span>WebSite</span>
+                            </div>
+                        </div>
+                        <div class="col-md-4 col-lg-6">
+                            <div class="portfolio__container">
+                                <a class="portfolio__imgcontainer" href="https://tesispmp.herokuapp.com/" target="_blank">
+                                    <img class="portfolio__img" src="img/proyect__tesispmp.svg" alt="">
+                                </a>
+                                <a class="portfolio__title" href="https://tesispmp.herokuapp.com/" target="_blank">Tesis
+                                    Pmp
+                                </a>
+                                <span>WebSite</span>
+                            </div>
+                        </div>
+                        <div class="col-md-4 col-lg-6">
+                            <div class="portfolio__container">
+                                <a class="portfolio__imgcontainer" href="https://gmanriqe.github.io/invie-music/"
+                                    target="_blank">
+                                    <img class="portfolio__img" src="img/proyect__invie.png" alt="">
+                                </a>
+                                <a class="portfolio__title" href="https://gmanriqe.github.io/invie-music/" target="_blank">Invie
+                                    Course
+                                </a>
+                                <span>WebSite</span>
+                            </div>
+                        </div>
+                        <div class="col-md-4 col-lg-6">
+                            <div class="portfolio__container">
+                                <a class="portfolio__imgcontainer" href="https://gmanriqe.github.io/siteweb-course/"
+                                    target="_blank">
+                                    <img class="portfolio__img" src="img/proyect__edteam.jpg" alt="">
+                                </a>
+                                <a class="portfolio__title" href="https://gmanriqe.github.io/siteweb-course/" target="_blank">Ed
+                                    Course
+                                </a>
+                                <span>WebSite</span>
+                            </div>
+                        </div>
+                        <div class="col-md-4 col-lg-6">
+                            <div class="portfolio__container">
+                                <a class="portfolio__imgcontainer" href="https://gmanriqe.github.io/siteweb-flower/"
+                                    target="_blank">
+                                    <img class="portfolio__img" src="img/proyect__flower.jpg" alt="">
+                                </a>
+                                <a class="portfolio__title" href="https://gmanriqe.github.io/siteweb-flower/" target="_blank">Flower</a>
+                                <span>WebSite</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- contact -->
+    <div class="main__contact padding__main" id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <h2 class="title title--center">Contáctame</h2>
+                    <p style="text-align:center">Si te interesa mi trabajo, las habilidades que tengo o las tecnologías
+                        que
+                        conozco. Contáctame.</p>
+                    <div class="button">
+                        <!-- <button class="btn contact__button">VER CURRICULUM</button> -->
+                        <a class="btn contact__button" href="pdf/cv_jesusgonzales.pdf" target="_blank">VER CURRICULUM</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- footer -->
+    <footer class="main__footer padding__main">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="footer">
+                        <ul class="footer__menu d-sm-block d-md-flex justify-content-center">
+                            <li class="footer__list">
+                                <a href="#header" data-easing="easeInQuad">Inicio</a>
+                            </li>
+                            <li class="footer__list">
+                                <a href="#container" data-easing="easeInQuad">Sobre mi</a>
+                            </li>
+                            <li class="footer__list">
+                                <a href="#education" data-easing="easeInQuad">Formación</a>
+                            </li>
+                            <li class="footer__list">
+                                <a href="#skill" data-easing="easeInQuad">Habilidades</a>
+                            </li>
+                            <li class="footer__list">
+                                <a href="#experience" data-easing="easeInQuad">Experiencia</a>
+                            </li>
+                            <li class="footer__list">
+                                <a href="#portfolio" data-easing="easeInQuad">Portafolio</a>
+                            </li>
+                            <li class="footer__list">
+                                <a href="#contact" data-easing="easeInQuad">Contactame</a>
+                            </li>
+                        </ul>
+                        <p class="footer__copy">© 2018 GManriqe. Todos los derechos reservados.</p>
+                        <div class="footer__social">
+                            <a href="https://www.linkedin.com/in/gmanriqe/" target="_blank">
+                                <i class="fab fa-linkedin-in"></i>
+                            </a>
+                            <a href="https://github.com/gmanriqe" target="_blank">
+                                <i class="fab fa-github"></i>
+                            </a>
+                            <a href="https://www.instagram.com/gmanriqe/" target="_blank">
+                                <i class="fab fa-instagram"></i>
+                            </a>
+                            <a href="https://twitter.com/gmanriqe" target="_blank">
+                                <i class="fab fa-twitter"></i>
+                            </a>
+                            <a href="https://twitter.com/gmanriqe" target="_blank">
+                                <i class="fab fa-facebook-f"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- bootstrap -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <!-- add for version slim use bootstrap reduce jquery total -->
+    <script src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
+        crossorigin="anonymous"></script>
+    <!-- typed.js -->
+    <script src="./js/typed/typed.min.js"></script>
+    <!-- smooth scroll -->
+    <script src="./js/smoth-scroll/smooth-scroll.min.js"></script>
+    <!-- owl carousel -->
+    <script src="./js/owl-carousel/owl.carousel.min.js"></script>
+    <!-- script -->
+    <script src="./js/min/main.js"></script>
+</body>
+
+</html>
